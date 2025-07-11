@@ -1,28 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://www.leizelaser.com/</loc>
-      <lastmod>2025-07-09T04:30:00+00:00</lastmod>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://www.leizelaser.com/#promotions</loc>
-      <lastmod>2025-07-09T04:30:00+00:00</lastmod>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.leizelaser.com/#why-cm8</loc>
-      <lastmod>2025-07-09T04:30:00+00:00</lastmod>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.leizelaser.com/#faq</loc>
-      <lastmod>2025-07-09T04:30:00+00:00</lastmod>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.leizelaser.com/#games</loc>
-      <lastmod>2025-07-09T04:30:00+00:00</lastmod>
-      <priority>0.8</priority>
-   </url>
-   </urlset>
+    <!-- 
+    Sitemap for http://leizelaser.com/
+    This file lists the most important pages to help search engines index our site effectively.
+    -->
+
+    <!-- Homepage -->
+    <url>
+        <loc>http://leizelaser.com/</loc>
+        <lastmod>2024-05-21</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Main Game Categories -->
+    <url>
+        <loc>http://leizelaser.com/slots</loc>
+        <lastmod>2024-05-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>http://leizelaser.com/live-casino</loc>
+        <lastmod>2024-05-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>http://leizelaser.com/sports</loc>
+        <lastmod>2024-05-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Key Landing Pages -->
+    <url>
+        <loc>http://leizelaser.com/promotions</loc>
+        <lastmod>2024-05-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>http://leizelaser.com/why-cm8</loc>
+        <lastmod>2024-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Informational & Support Pages -->
+    <url>
+        <loc>http://leizelaser.com/faq</loc>
+        <lastmod>2024-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>http://leizelaser.com/about-us</loc>
+        <lastmod>2024-04-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://leizelaser.com/responsible-gaming</loc>
+        <lastmod>2024-04-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Legal Pages -->
+    <url>
+        <loc>http://leizelaser.com/terms-and-conditions</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>http://leizelaser.com/privacy-policy</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+</urlset>

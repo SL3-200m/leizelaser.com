@@ -1,11 +1,26 @@
-# robots.txt for CM8 Gaming (leizelaser.com)
+# robots.txt for http://leizelaser.com/
+# This file tells search engine crawlers which pages to crawl and which to ignore.
 
 User-agent: *
-Allow: /
+# The wildcard (*) applies these rules to all web crawlers (e.g., Googlebot, Bingbot).
 
-# You can add specific 'Disallow' rules here if there are parts of your site
-# you do NOT want search engines to crawl. For example:
-# Disallow: /admin/
-# Disallow: /temp/
+# Allow crawling of essential resources for proper page rendering.
+Allow: /*.css$
+Allow: /*.js$
+Allow: /image/
 
-Sitemap: https://www.leizelaser.com/sitemap.xml
+# Disallow crawling of functional or private areas.
+# These pages do not provide value in search results.
+Disallow: /login/
+Disallow: /register/
+Disallow: /account/
+Disallow: /cashier/
+Disallow: /my-profile/
+
+# Disallow crawling of asset folders that don't need to be indexed directly.
+Disallow: /audio/
+Disallow: /video/
+
+# Specify the location of the XML Sitemap.
+# This helps crawlers discover all important URLs on the site.
+Sitemap: http://leizelaser.com/sitemap.xml
