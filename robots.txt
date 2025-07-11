@@ -1,0 +1,11 @@
+# robots.txt for CM8 Gaming (leizelaser.com)
+
+User-agent: *
+Allow: /
+
+# You can add specific 'Disallow' rules here if there are parts of your site
+# you do NOT want search engines to crawl. For example:
+# Disallow: /admin/
+# Disallow: /temp/
+
+Sitemap: https://www.leizelaser.com/sitemap.xml
